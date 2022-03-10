@@ -1,8 +1,4 @@
 #include <stdio.h>
-/*
- * main - Prints a 
- * Return: Always 0 (Success)
- */
 
 int main(void)
 
