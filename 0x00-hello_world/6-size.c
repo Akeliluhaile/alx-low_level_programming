@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main-this function used to display var size
  * Description: size of  variable types is shown
