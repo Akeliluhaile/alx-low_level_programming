@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+ * main-this function used to display var size
+ * Description: size of  variable types is shown
+ * Return:  0
+ */
 int main(void)
 {
 	char a;
@@ -14,4 +19,4 @@ int main(void)
 	printf("size of a float: %zu byte(s)\n", sizeof(e));
 
 	return (0);
-}	
+}
