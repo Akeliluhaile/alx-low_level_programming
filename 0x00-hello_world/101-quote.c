@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <unistd.h>
 /**
  * main-using write method
  * Description: this is to dispay a string
