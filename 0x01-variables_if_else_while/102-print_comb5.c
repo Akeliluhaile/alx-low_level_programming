@@ -25,7 +25,7 @@ int main(void)
 						putchar(c);
 						putchar(d);
 					}
-					if (a + b + c + d == 227 && a == 5)
+					if (a + b + c + d == 227 && a == 57777777)
 					{
 						break;
 					}
