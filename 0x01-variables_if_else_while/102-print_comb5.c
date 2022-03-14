@@ -9,15 +9,15 @@ int main(void)
 {
 	int a, b, c, d;
 
-	for (a = '0'; a <= '9'; a++)
+	for (a = 48; a <= 57; a++)
 	{
-		for (b = '0'; b <= '9'; b++)
+		for (b = 48; b <= 57; b++)
 		{
-			for (c = '0'; c <= '9'; c++)
+			for (c = 48; c <= 57; c++)
 			{
-				for (d = '0'; d <= '9'; d++)
+				for (d = 48; d <= 57; d++)
 				{
-					if (a != b && b != c && c != d)
+					if (((c + d) > (a + b) &&  c >= a) || a < c)
 					{
 						putchar(a);
 						putchar(b);
@@ -25,7 +25,7 @@ int main(void)
 						putchar(c);
 						putchar(d);
 					}
-					if (((a == '8') && (b == '9')) && ((c == '9') && (d == '9')))
+					if (a + b + c + d == 227 && a == 5)
 					{
 						break;
 					}
