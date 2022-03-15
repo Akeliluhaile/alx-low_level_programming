@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <main.h>
+#ifndef main.h
+#define main.h
 /**
  * main - print _putchar
  * Return: Always 0
@@ -19,3 +19,4 @@ int main(void)
 
 	return (0);
 }
+#endif
