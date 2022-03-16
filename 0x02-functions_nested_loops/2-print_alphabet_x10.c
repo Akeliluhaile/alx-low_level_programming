@@ -2,7 +2,7 @@
 /**
  * print_alphabet_x10 -write alphabet in lower case followed by new line
  */
-int print_alphabet_x10(void)
+void print_alphabet_x10(void)
 {
 	char c;
 
