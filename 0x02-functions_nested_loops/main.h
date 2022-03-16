@@ -1,7 +1,6 @@
-#ifndef _putchar
-#define _putchar
-int _putchar(void)
-{
-	_putchar = putchar;
-}
+#ifndef MAIN
+#define MAIN
+
+int _putchar(char c);
+
 #endif
