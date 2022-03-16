@@ -1,7 +1,6 @@
-#ifndef main.h
-#define main.h(_putchar)
-
-int main(void)
+#ifndef _putchar
+#define _putchar
+int _putchar(void)
 {
 	_putchar = putchar;
 }
