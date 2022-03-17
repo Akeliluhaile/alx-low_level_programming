@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _islower - identify low case
- * c -is a smamm letter from a to z
+ * @c :is a smamm letter from a to z
  * Return: 1 if small else 0
  */
 int _islower(void)
