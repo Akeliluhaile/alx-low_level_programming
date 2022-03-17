@@ -4,8 +4,8 @@
  * @c :is a smamm letter from a to z
  * Return: 1 if small else 0
  */
-int _islower(void)
-{	char c;
+int _islower(int c)
+{	
 	if (c >= 'a' && c <= 'z')
 	{
 		return (1);
