@@ -1,10 +1,11 @@
 #include "main.h"
 /**
  *_abs - gives abslote value of an intiger
- * @n:intiger
- * 
+ *@n:intiger
+ *@abs:abslotw value
+ *Return: Always (success);
  */
-int _abs(int n)
+int _abs(int n, abs)
 {
 
 
@@ -21,5 +22,6 @@ int _abs(int n)
 	{
 		_putchar(0);
 	}
-	
+	return (0);
+
 }
