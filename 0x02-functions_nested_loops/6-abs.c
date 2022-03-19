@@ -2,7 +2,7 @@
 /**
  *_abs - gives abslote value of an intiger
  * @n:intiger
- * Return: Always (success)
+ * 
  */
 int _abs(int n)
 {
@@ -14,11 +14,12 @@ int _abs(int n)
 	}
 	else if (n < 0)
 	{
-		_putchar(-1 * n);
+		abs = -1 * n;
+		_putchar(abs);
 	}
 	else
 	{
 		_putchar(0);
 	}
-	return (0);
+	
 }
