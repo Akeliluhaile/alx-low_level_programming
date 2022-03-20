@@ -6,9 +6,8 @@
  * int: an intiger data type
  * Return:always 0
  */
-int print_last_digit(void)
+int print_last_digit(int c, int ld) 
 {
-	int c, ld;
 
 	ld = c % 10;
 

@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  *_abs - gives abslote value of an intiger
@@ -8,7 +7,7 @@
  */
 int _abs(int c, int r)
 {
-	r = _abs(c);
+	r = abs(c);
 
 	printf("%d\n", r);
 	return (0);
