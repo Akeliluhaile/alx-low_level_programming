@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  *_abs - gives abslote value of an intiger
