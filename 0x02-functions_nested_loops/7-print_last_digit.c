@@ -6,7 +6,7 @@
  * int: an intiger data type
  * Return:always 0
  */
-int print_last_digit(int)
+int print_last_digit(void)
 {
 	int c, ld;
 
