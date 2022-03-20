@@ -2,20 +2,14 @@
 /**
  *_abs - gives abslote value of an intiger
  *@c:intiger
- *@m:abs of negitive  intiger
- *Return: Abslote value of n
+ *@r:abs of negitive  intiger
+ *Return: Abslote value of c
  */
-int _abs(int c, int m)
+int _abs(int c, int r)
 {
-	if (c < 0)
-	{
-		m = -1 * c;
-		_putchar(m);
-	}
-	else
-	{
-		_putchar(c);
-	}
+	r = _abs(c);
+
+	printf("%d\n", r);
 	return (0);
 
 }
