@@ -2,9 +2,10 @@
 /**
  *_abs - gives abslote value of an intiger
  *@c:intiger
+ *@m:abs of negitive  intiger
  *Return: Abslote value of n
  */
-int _abs(int c)
+int _abs(int c, int m)
 {
 
 	if (c < 0)
