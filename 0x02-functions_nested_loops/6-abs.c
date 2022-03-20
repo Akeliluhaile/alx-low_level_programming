@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *_abs - gives abslote value of an intiger
- *@cn:intiger
+ *@c:intiger
  *Return: Abslote value of n
  */
 int _abs(int c)
