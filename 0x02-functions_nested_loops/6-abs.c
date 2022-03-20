@@ -1,23 +1,16 @@
 #include "main.h"
 /**
  *_abs - gives abslote value of an intiger
- *@n:intiger
- *@m:abs value
- *Return: Always (success);
+ *@cn:intiger
+ *Return: Abslote value of n
  */
-int _abs(int n, int m)
+int _abs(int c)
 {
 
-
-	if (n >= 0)
+	if (c < 0)
 	{
-		_putchar(n);
+		m = -1 * c;
+		return (m);
 	}
-	else
-	{
-		m = -1 * n;
-		_putchar(m);
-	}
-	return (0);
-
+	return (c);
 }
