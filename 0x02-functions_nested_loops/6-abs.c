@@ -7,8 +7,6 @@
  */
 int _abs(int c, int m)
 {
-	r = abs(-1);
-
 	if (c < 0)
 	{
 		m = -1 * c;
