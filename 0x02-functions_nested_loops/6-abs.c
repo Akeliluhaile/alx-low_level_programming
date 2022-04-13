@@ -2,14 +2,18 @@
 /**
  *_abs - gives abslote value of an intiger
  *@c:intiger
- *@r:abs of negitive  intiger
- *Return: Abslote value of c
+ *Return: Abslote value of c or zero
  */
-int _abs(int c, int r)
+int _abs(int c)
 {
-	r = abs(c);
+	if (c < 0)
+	{
+		int a;
 
-	printf("%d\n", r);
-	return (0);
+		a = c * -1;
 
+		return (a);
+	}
+
+	return (c);
 }
